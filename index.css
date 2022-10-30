@@ -1,0 +1,184 @@
+.body {
+  font-size: 16px;
+  font-family: var(--font-body);
+  color: var(--color-font);
+}
+
+.topHeader {
+  background-color: var(--color-1);
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 0.9em;
+}
+
+.navHeader {
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  position: sticky;
+  top: 0;
+}
+
+.navHeaderLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 16px;
+  margin-left: 32px;
+}
+
+.navHeaderLink {
+  cursor: pointer;
+}
+
+.navHeaderLink:hover {
+  text-decoration: underline;
+}
+
+.navHeaderIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 16px;
+}
+
+.navHeaderIcon {
+  cursor: pointer;
+}
+
+.navHeaderIcon:hover {
+  font-size: 28px;
+  margin-left: -4px;
+}
+
+.content1 {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content1TextContainer {
+  width: 80%;
+}
+
+.content1Title {
+  font-family: var(--font-header);
+  font-size: 40px;
+}
+
+.content1Button {
+  background-color: var(--color-1);
+  color: white;
+  padding: 16px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 32px;
+  margin-top: 48px;
+}
+
+.content2Title {
+  font-family: var(--font-header);
+  font-size: 40px;
+}
+
+.content3 {
+  padding: 32px;
+}
+
+.content3Title {
+  font-family: var(--font-header);
+  font-size: 40px;
+}
+
+.content3Images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.content3Text {
+  margin-top: 8px;
+}
+
+.content4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 8px;
+  padding: 8px;
+  margin-top: 32px;
+}
+
+.content4Text {
+  background-color: var(--color-1);
+  color: white;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.content4Title {
+  font-family: var(--font-header);
+  font-size: 40px;
+}
+
+.content4Subtitle {
+  font-family: var(--font-header);
+  font-style: italic;
+  font-size: 24px;
+}
+
+.footer {
+  background-color: var(--color-2);
+  margin-top: 48px;
+  height: 300px;
+  padding: 64px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.footerTitle {
+  font-family: var(--font-header);
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.footerLink {
+  cursor: pointer;
+  width: fit-content;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
+
+.footerSocialMediaIcons {
+  grid-column: 1/4;
+  margin-top: 48px;
+}
+
+.footerIcons {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.footerIcon {
+  cursor: pointer;
+}
