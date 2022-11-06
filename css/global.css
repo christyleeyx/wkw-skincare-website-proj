@@ -48,10 +48,41 @@
 
 .navHeaderLink {
   cursor: pointer;
+  padding: 8px;
 }
 
 .navHeaderLink:hover {
   text-decoration: underline;
+}
+
+.navHeaderDropdown:hover > .navHeaderLink {
+  text-decoration: underline;
+}
+
+.navHeaderDropdown {
+  position: relative;
+}
+
+.navHeaderDropdownIcon {
+  width: 16px;
+  padding-bottom: 2px;
+  margin-left: -4px;
+}
+
+.navHeaderDropdownContent {
+  position: absolute;
+  width: max-content;
+  display: none;
+  background-color: white;
+  border: 1px solid var(--color-font);
+  padding: 16px;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.navHeaderDropdown:hover .navHeaderDropdownContent {
+  display: flex;
 }
 
 .navHeaderIcons {
