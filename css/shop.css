@@ -1,0 +1,60 @@
+.content1 {
+  padding: 32px;
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content1Text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content1Header {
+  font-family: var(--font-header);
+  font-size: 40px;
+}
+
+.content2 {
+  width: 90%;
+  margin: auto;
+  margin-top: 64px;
+}
+
+.content2Title {
+  font-family: var(--font-header);
+  font-size: 40px;
+  width: 100%;
+}
+
+.content2Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.content2Item {
+  cursor: pointer;
+}
+
+.content2Image {
+  width: 100%;
+}
+
+.content2Text {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.content2Item:hover .content2Text {
+  text-decoration: underline;
+}
+
+.content2Price {
+  font-size: 1.2em;
+  text-align: center;
+}
