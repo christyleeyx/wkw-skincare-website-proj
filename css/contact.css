@@ -68,7 +68,7 @@
 .contact-container {
     display: grid;
     grid-template-columns: 4fr 4fr 4fr;
-    margin-top: 50px;s
+    margin-top: 50px;
   }
   
   .centerContent {
@@ -104,5 +104,13 @@
   }
 
   .content1Subtitle u {
-    text-decoration: #5F3431; solid underline;
+    text-decoration: #5F3431 solid underline;
+}
+
+/* Set the size of the div element that contains the map */
+.map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
 }
