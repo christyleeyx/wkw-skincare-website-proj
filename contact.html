@@ -87,6 +87,7 @@
         <a href="contact.html" class="navHeaderLink">CONTACT</a>
         <a href="beforeafter.html" class="navHeaderLink">BEFORE & AFTERS</a>
         <a href="blog.html" class="navHeaderLink">BLOG</a>
+        <a href="shop.html" class="navHeaderLink">SHOP</a>
       </div>
       <div class="navHeaderIcons">
         <a class="material-symbols-outlined navHeaderIcon"> search </a>
@@ -112,16 +113,15 @@
     <!-- CONTENT -->
     <section class="spaced-section spaced-section--full-width">
         <div class="page-width">
+            <div class="content1Title">
+                Get in touch
+            </div>
+            <div class="content1Subtitle" style="font-size: 18px;">
+                <i>We love when you reach out!</i>
+            </div>
             <div class="contact-container">
-                <div class="centerContent">
+                <div class="centerContent" style="align-items:flex-start;">
                     <div class="content1TextContainer">
-                        <div class="content1Title">
-                            Get in touch
-                        </div>
-                        <div class="content1Subtitle">
-                            <i>We love when you reach out!</i>
-                        </div>
-                        <br/>
                         <div class="contentSubtitle-title">
                             Address
                         </div>
@@ -139,34 +139,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="centerContent" style="align-items:flex-start;"">
+                <div class="centerContent" style="align-items:flex-start;">
                     <div class="content1TextContainer">
-                        <div class="content1Title" style="color: white;">
-                            &nbsp;
-                        </div>
-                        <div class="content1Subtitle" style="color: white;">
-                            &nbsp;
-                        </div>
-                        <br/>
                         <div class="contentSubtitle-title">
                             Opening Hours
                         </div>
-                        <div class="content1Subtitle">&nbsp;
+                        <div class="content1Subtitle">
                             Monday to Friday: 9am - 6pm<br/>
                             Saturday: 9am - 1pm<br/>
                             Closed on Sundays and Public Holidays
                         </div>
-                        <br/>
-                        <div class="contentSubtitle-title" style="color: white;">
-                            &nbsp;
-                        </div>
-                        <div class="content1Subtitle" style="color: white;">
-                            &nbsp;<br/>
-                            &nbsp;
-                        </div>
                     </div>
                 </div>
-                    <div><img src="assets/contact/clinic2.jpg" width="100%" height="150%x" style="padding-top: 60px;" /></div>
+                    <div class="centerContent"><img src="assets/contact/clinic2.jpg" width="100%" height="150%x"/></div>
             </div>
         </div>
     </section>
@@ -180,11 +165,42 @@
         </div>
     </section>
 
-    <section class="spaced-section spaced-section--full-width">
-        <div class="page-width">
+    <!-- contact us form -->
 
-        </div>
+    <section class="spaced-section spaced-section--full-width"  style="height: 800px; background-color:#ddcac0;">
+        <div class="contact page-width page-width--narrow spaced-section" style="padding-top: 30px;">
+            <h2 class="title">Drop your enquiry and we'll get back to you within a day!</h2>
+                <form id="ContactForm" accept-charset="UTF-8" class="contact-form">
+                    <input type="hidden" name="form_type" value="contact">
+                    <input type="hidden" name="utf8" value="✓">
+                    <div class="contact__fields">
+                        <div class="field">
+                            <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[Name]" value="" placeholder="Name" required>
+                            <label class="field__label" for="ContactForm-name">Name <span aria-hidden="true">*</span></label>
+                        </div>
+                        <div class="field field--with-error">
+                            <input autocomplete="email" type="email" id="ContactForm-email" class="field__input" name="contact[email]" spellcheck="false" autocapitalize="off" value="" aria-required="true" placeholder="Email">
+                            <label class="field__label">Email <span aria-hidden="true">*</span></label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[Phone number]" pattern="[0-9\-]*" value="" placeholder="Phone number">
+                        <label class="field__label">Phone number <span aria-hidden="true">*</span></label>
+                    </div>
+                    <div class="field">
+                        <textarea rows="10" id="ContactForm-body" class="text-area field__input" name="contact[Comment]" placeholder="Enquiry" required aria-required="true"></textarea>
+                        <label class="form__label field__label">Enquiry</label>
+                    </div>
+                    <div class="contact__button">
+                        <button type="submit" class="button">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+        </div>         
     </section>
+
+    <!-- contact form end-->
     <!-- CONTENT END -->
 
     <!-- FOOTER -->
