@@ -1,157 +1,298 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Blog | Verra</title>
-        <link rel="stylesheet" href="css/global.css" />
-        <link rel="stylesheet" href="css/index.css" />
-        <link rel="stylesheet" href="css/blog.css" />
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-        />
-      </head>
-  <body class="body">
+  <head>
+    <title>Blog | Verra</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body class="body">
     <!-- HEADER -->
     <div class="topHeader">Free delivery for orders over S$80</div>
     <div class="navHeader">
-      <img src="assets/logo1.png" alt="Verra logo" width="100" />
+      <a href="index.html">
+        <img src="assets/logo1.png" alt="Verra logo" width="100" />
+      </a>
       <div class="navHeaderLinks">
         <a href="index.html" class="navHeaderLink">HOME</a>
-        <a href="about.html" class="navHeaderLink">ABOUT</a>
-        <a href="services.html" class="navHeaderLink">SERVICES</a>
-        <a class="navHeaderLink">CONTACT</a>
-        <a class="navHeaderLink">BEFORE & AFTERS</a>
+        <div class="navHeaderDropdown">
+          <a href="about.html" class="navHeaderLink">ABOUT</a
+          ><svg class="navHeaderDropdownIcon" viewBox="0 0 10 6">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <div class="navHeaderDropdownContent">
+            <a href="our-team.html" class="navHeaderLink">Our Team</a>
+            <a href="testimontals.html" class="navHeaderLink">Testimonials</a>
+          </div>
+        </div>
+        <div class="navHeaderDropdown">
+          <a href="services.html" class="navHeaderLink">SERVICES</a
+          ><svg class="navHeaderDropdownIcon" viewBox="0 0 10 6">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <div class="navHeaderDropdownContent">
+            <a href="services/botox-and-fillers.html" class="navHeaderLink"
+              >Botox and Fillers</a
+            >
+            <a href="services/brow-and-waxing.html" class="navHeaderLink"
+              >Brow and Waxing</a
+            >
+            <a href="services/facial-services.html" class="navHeaderLink"
+              >Facial Services</a
+            >
+            <a href="services/skin-treatments.html" class="navHeaderLink"
+              >Skin Treatments</a
+            >
+          </div>
+        </div>
+        <a href="contact.html" class="navHeaderLink">CONTACT</a>
+        <a href="beforeafter.html" class="navHeaderLink">BEFORE & AFTERS</a>
         <a href="blog.html" class="navHeaderLink">BLOG</a>
+        <a href="shop.html" class="navHeaderLink">SHOP</a>
       </div>
       <div class="navHeaderIcons">
         <a class="material-symbols-outlined navHeaderIcon"> search </a>
         <a class="material-symbols-outlined navHeaderIcon"> shopping_cart </a>
       </div>
     </div>
-
-    <!-- HEADER END -->
-
+    <div class="banner-container">
+      <div class="banner-text">
+        <div class="banner-header">Blog</div>
+        <div class="banner-body">
+          Read all about your body and skin here at our blog 
+        </div>
+        <br />
+        <div class="banner-nav">
+          <a class="banner-page-link" href="index.html">Home</a>
+          <a>></a>
+          <a class="banner-current-page">Blog</a>
+        </div>
+      </div>
+    </div>
+    <!-- END HEADER -->
 
     <!-- CONTENT -->
-        <div class="banner-container">
-            <img src="assets/blog/banner.png" alt="blog banner everyday routine" />
-            <a href="#"><button class="banner-btn">Learn more</button></a>
-        </div>
-        <section>
-            <div class="main-blog page-width">
-                <h1 class="title--primary"><bold>Our Blog</bold></h1>
-                <div class="blog-articles blog-articles--collage">
-                    <div class="blog-articles__article article">
-                        <article class="article-card">
-                            <a href="#" class="article-content motion-reduce">
-                                <div class="article-card__image-wrapper">
-                                    <div class="article-card__image media article-card__image--medium">
-                                        <img src="assets/blog/article1.webp" sizes="(min-width: 1600px) 750px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" 
-                                        alt="Finding the right care for your skin" width="1920" height="2880" loading="lazy" class="motion-reduce">
-                                    </div>
-                                </div>
-                                <div class="article-card__info">
-                                    <header class="article-card__header">
-                                        <h2 class="article-card__title">Confidence is beauty</h2>
-                                        <span class="caption-with-letter-spacing" style="font-family: 'Open Sans', sans-serif; font-size: 13px;">Verra. Team</span>
-                                    </header>
-                                    <p class="article-card__excerpt rte-width">
-                                        They say beauty is in the eye of the beholder, but we believe that beholder is <em>you</em>. Find out more about the practices of some of our clients
-                                        as they talk about how they found their confidence and became their authentic self.
-                                    </p>
-                                    <div class="article-card__footer"></div>
-                                </div>
-                            </a>                        
-                        </article>
-                    </div>
-
-                    <div class="blog-articles__article article">
-                        <article class="article-card">
-                            <a href="#" class="article-content motion-reduce">
-                                <div class="article-card__image-wrapper">
-                                    <div class="article-card__image media article-card__image--medium">
-                                        <img src="assets/blog/article2.jpg" sizes="(min-width: 1600px) 750px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" 
-                                        alt="Finding the right care for your skin" width="1920" height="2880" loading="lazy" class="motion-reduce">
-                                    </div>
-                                </div>
-                                <div class="article-card__info">
-                                    <header class="article-card__header">
-                                        <h2 class="article-card__title">You and your skin</h2>
-                                        <span class="caption-with-letter-spacing" style="font-family: 'Open Sans', sans-serif; font-size: 13px;">Verra. Team</span>
-                                    </header>
-                                    <p class="article-card__excerpt rte-width">
-                                        Acne affects us all. It is one of the most common conditions we see. While acne is not dangerous or contagious, it's symptoms and effects can leave
-                                        a great impact on one's self-esteem and well-being.
-                                    </p>
-                                    <div class="article-card__footer"></div>
-                                </div>
-                            </a>                        
-                        </article>
-                    </div>
-
-                    <div class="blog-articles__article article">
-                        <article class="article-card">
-                            <a href="#" class="article-content motion-reduce">
-                                <div class="article-card__image-wrapper">
-                                    <div class="article-card__image media article-card__image--medium">
-                                        <img src="assets/blog/article4.webp" sizes="(min-width: 1600px) 750px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" 
-                                        alt="Finding the right care for your skin" width="1920" height="2880" loading="lazy" class="motion-reduce">
-                                    </div>
-                                </div>
-                                <div class="article-card__info">
-                                    <header class="article-card__header">
-                                        <h2 class="article-card__title">Building the right routine for your skin</h2>
-                                        <span class="caption-with-letter-spacing" style="font-family: 'Open Sans', sans-serif; font-size: 13px;">Verra. Team</span>
-                                    </header>
-                                    <p class="article-card__excerpt rte-width">
-                                        The myriad of products out on the market can add more confusion to finding a suitable routine for your skin.
-                                        <em>But fear not! </em>With the right information, you'll be on your way to having healthy and glowing skin for years to come.
-                                    </p>
-                                    <div class="article-card__footer"></div>
-                                </div>
-                            </a>                        
-                        </article>
-                    </div>
-
-                    <div class="blog-articles__article article">
-                        <article class="article-card">
-                            <a href="#" class="article-content motion-reduce">
-                                <div class="article-card__image-wrapper">
-                                    <div class="article-card__image media article-card__image--medium">
-                                        <img src="assets/blog/article3.jpg" sizes="(min-width: 1600px) 750px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)" 
-                                        alt="Finding the right care for your skin" width="1920" height="2880" loading="lazy" class="motion-reduce">
-                                    </div>
-                                </div>
-                                <div class="article-card__info">
-                                    <header class="article-card__header">
-                                        <h2 class="article-card__title">Types of acne scars and how to treat them</h2>
-                                        <span class="caption-with-letter-spacing" style="font-family: 'Open Sans', sans-serif; font-size: 13px;">Verra. Team</span>
-                                    </header>
-                                    <p class="article-card__excerpt rte-width">
-                                        Not all acne turns into scars. Whether scars form depends on how much collagen your body produces when your skin is damaged.<br>
-                                        While acne scars won't go away entirely on their own, they can be easily and effectively treated to improve their appearance. <br>
-                                        <em>Find out more </em>on the types of treatment for different types of acne scars.
-                                    </p>
-                                    <div class="article-card__footer"></div>
-                                </div>
-                            </a>                        
-                        </article>
-                    </div>
+    <section>
+      <div class="main-blog page-width">
+        <h1 class="title--primary"><br /></h1>
+        <div class="blog-articles blog-articles--collage">
+          <div class="blog-articles__article article">
+            <article class="article-card">
+              <a href="#" class="article-content motion-reduce">
+                <div class="article-card__image-wrapper">
+                  <div
+                    class="article-card__image media article-card__image--medium"
+                  >
+                    <img
+                      src="assets/blog/article1.webp"
+                      sizes="(min-width: 1600px) 750px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="Finding the right care for your skin"
+                      width="1920"
+                      height="2880"
+                      loading="lazy"
+                      class="motion-reduce"
+                    />
+                  </div>
                 </div>
-            </div>
-        </section>
+                <div class="article-card__info">
+                  <header class="article-card__header">
+                    <h2 class="article-card__title">Confidence is beauty</h2>
+                    <span
+                      class="caption-with-letter-spacing"
+                      style="
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 13px;
+                      "
+                      >Verra. Team</span
+                    >
+                  </header>
+                  <p class="article-card__excerpt rte-width">
+                    They say beauty is in the eye of the beholder, but we
+                    believe that beholder is <em>you</em>. Find out more about
+                    the practices of some of our clients as they talk about how
+                    they found their confidence and became their authentic self.
+                  </p>
+                  <div class="article-card__footer"></div>
+                </div>
+              </a>
+            </article>
+          </div>
+
+          <div class="blog-articles__article article">
+            <article class="article-card">
+              <a href="#" class="article-content motion-reduce">
+                <div class="article-card__image-wrapper">
+                  <div
+                    class="article-card__image media article-card__image--medium"
+                  >
+                    <img
+                      src="assets/blog/article2.jpg"
+                      sizes="(min-width: 1600px) 750px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="Finding the right care for your skin"
+                      width="1920"
+                      height="2880"
+                      loading="lazy"
+                      class="motion-reduce"
+                    />
+                  </div>
+                </div>
+                <div class="article-card__info">
+                  <header class="article-card__header">
+                    <h2 class="article-card__title">You and your skin</h2>
+                    <span
+                      class="caption-with-letter-spacing"
+                      style="
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 13px;
+                      "
+                      >Verra. Team</span
+                    >
+                  </header>
+                  <p class="article-card__excerpt rte-width">
+                    Acne affects us all. It is one of the most common conditions
+                    we see. While acne is not dangerous or contagious, it's
+                    symptoms and effects can leave a great impact on one's
+                    self-esteem and well-being.
+                  </p>
+                  <div class="article-card__footer"></div>
+                </div>
+              </a>
+            </article>
+          </div>
+
+          <div class="blog-articles__article article">
+            <article class="article-card">
+              <a href="#" class="article-content motion-reduce">
+                <div class="article-card__image-wrapper">
+                  <div
+                    class="article-card__image media article-card__image--medium"
+                  >
+                    <img
+                      src="assets/blog/article4.webp"
+                      sizes="(min-width: 1600px) 750px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="Finding the right care for your skin"
+                      width="1920"
+                      height="2880"
+                      loading="lazy"
+                      class="motion-reduce"
+                    />
+                  </div>
+                </div>
+                <div class="article-card__info">
+                  <header class="article-card__header">
+                    <h2 class="article-card__title">
+                      Building the right routine for your skin
+                    </h2>
+                    <span
+                      class="caption-with-letter-spacing"
+                      style="
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 13px;
+                      "
+                      >Verra. Team</span
+                    >
+                  </header>
+                  <p class="article-card__excerpt rte-width">
+                    The myriad of products out on the market can add more
+                    confusion to finding a suitable routine for your skin.
+                    <em>But fear not! </em>With the right information, you'll be
+                    on your way to having healthy and glowing skin for years to
+                    come.
+                  </p>
+                  <div class="article-card__footer"></div>
+                </div>
+              </a>
+            </article>
+          </div>
+
+          <div class="blog-articles__article article">
+            <article class="article-card">
+              <a href="#" class="article-content motion-reduce">
+                <div class="article-card__image-wrapper">
+                  <div
+                    class="article-card__image media article-card__image--medium"
+                  >
+                    <img
+                      src="assets/blog/article3.jpg"
+                      sizes="(min-width: 1600px) 750px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="Finding the right care for your skin"
+                      width="1920"
+                      height="2880"
+                      loading="lazy"
+                      class="motion-reduce"
+                    />
+                  </div>
+                </div>
+                <div class="article-card__info">
+                  <header class="article-card__header">
+                    <h2 class="article-card__title">
+                      Types of acne scars and how to treat them
+                    </h2>
+                    <span
+                      class="caption-with-letter-spacing"
+                      style="
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 13px;
+                      "
+                      >Verra. Team</span
+                    >
+                  </header>
+                  <p class="article-card__excerpt rte-width">
+                    Not all acne turns into scars. Whether scars form depends on
+                    how much collagen your body produces when your skin is
+                    damaged.<br />
+                    While acne scars won't go away entirely on their own, they
+                    can be easily and effectively treated to improve their
+                    appearance. <br />
+                    <em>Find out more </em>on the types of treatment for
+                    different types of acne scars.
+                  </p>
+                  <div class="article-card__footer"></div>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- CONTENT END -->
 
     <!-- FOOTER -->

@@ -6,6 +6,10 @@
 
 /* ====== banner ====== */
 
+
+:root {
+  --duration-long: .5s;
+}
 /* Container needed to position the button. Adjust the width as needed */
 .banner-container {
     position: relative;
@@ -221,9 +225,7 @@
     .article-content:hover img {
         transform: scale(1.07);
     }
-    .article-content img {
-        transition: transform var(--duration-long) ease;
-    }
+
     .media>img {
         object-fit: cover;
         object-position: center center;
@@ -239,6 +241,11 @@
         text-decoration: underline;
         text-underline-offset: 0.3rem;
     }
+
+    .article-content img {
+      transition: transform var(--duration-long) ease;
+    }
+    
     .article-card__header h2 {
         margin: 0 0 0.6rem;
     }

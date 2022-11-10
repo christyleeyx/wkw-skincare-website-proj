@@ -5,10 +5,24 @@
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/services.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,60 +39,102 @@
     <!-- HEADER -->
     <div class="topHeader">Free delivery for orders over S$80</div>
     <div class="navHeader">
-      <img src="../assets/logo1.png" alt="Verra logo" width="100" />
+      <a href="../index.html">
+        <img src="../assets/logo1.png" alt="Verra logo" width="100" />
+      </a>
       <div class="navHeaderLinks">
         <a href="../index.html" class="navHeaderLink">HOME</a>
-        <a href="../about.html" class="navHeaderLink">ABOUT</a>
-        <a href="../services.html" class="navHeaderLink">SERVICES</a>
-        <a class="navHeaderLink">CONTACT</a>
-        <a class="navHeaderLink">BEFORE & AFTERS</a>
+        <div class="navHeaderDropdown">
+          <a href="../about.html" class="navHeaderLink">ABOUT</a
+          ><svg class="navHeaderDropdownIcon" viewBox="0 0 10 6">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <div class="navHeaderDropdownContent">
+            <a href="../our-team.html" class="navHeaderLink">Our Team</a>
+            <a href="../testimontals.html" class="navHeaderLink"
+              >Testimonials</a
+            >
+          </div>
+        </div>
+        <div class="navHeaderDropdown">
+          <a href="../services.html" class="navHeaderLink">SERVICES</a
+          ><svg class="navHeaderDropdownIcon" viewBox="0 0 10 6">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z"
+              fill="currentColor"
+            ></path>
+          </svg>
+          <div class="navHeaderDropdownContent">
+            <a href="botox-and-fillers.html" class="navHeaderLink"
+              >Botox and Fillers</a
+            >
+            <a href="brow-and-waxing.html" class="navHeaderLink"
+              >Brow and Waxing</a
+            >
+            <a href="facial-services.html" class="navHeaderLink"
+              >Facial Services</a
+            >
+            <a href="skin-treatments.html" class="navHeaderLink"
+              >Skin Treatments</a
+            >
+          </div>
+        </div>
+        <a href="../contact.html" class="navHeaderLink">CONTACT</a>
+        <a href="../beforeafter.html" class="navHeaderLink">BEFORE & AFTERS</a>
         <a href="../blog.html" class="navHeaderLink">BLOG</a>
+        <a href="../shop.html" class="navHeaderLink">SHOP</a>
       </div>
       <div class="navHeaderIcons">
         <a class="material-symbols-outlined navHeaderIcon"> search </a>
         <a class="material-symbols-outlined navHeaderIcon"> shopping_cart </a>
       </div>
     </div>
-
-    <!-- BANNER -->
-    <div class="our-services-banner-container">
-        <img class="our-services-banner" src="../assets/services/services-banner.webp" alt="Our Services">
-        <div class="our-services-header">Brow & Waxing</div>
-        <div class="our-services-text">Affordable and safe treatments for your face and body</div>      
-        <div class="our-services-nav">
-            <a class="homepage-link" href="../index.html">Home</a>
-            <a>></a>
-            <a class="service-page-link" href="../services.html">Our Services</a>
-            <a>></a>
-            <a class="current-page">Brow & Waxing</a>
-    </div> 
+    <div class="banner-container">
+      <div class="banner-text">
+        <div class="banner-header">Brow and Waxing</div>
+        <div class="banner-body">
+          Affordable and safe treatments for your face and body
+        </div>
+        <br />
+        <div class="banner-nav">
+          <a class="banner-page-link" href="../index.html">Home</a>
+          <a>></a>
+          <a class="banner-page-link" href="../services.html">Our Services</a>
+          <a>></a>
+          <a class="banner-current-page">Brow and Waxing</a>
+        </div>
+      </div>
     </div>
+    <!-- END HEADER -->
 
     <!-- CONTENT -->
     <div class="services-container">
-    
-        <div class="services-header">Our Brow and Waxing Services</div>
-        <div class="services-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna 
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit 
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-            occaecat cupidatat non proident, sunt in culpa qui officia 
-            deserunt mollit anim id est laborum.
-        </div>
-        <div class="services-content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna 
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit 
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-            occaecat cupidatat non proident, sunt in culpa qui officia 
-            deserunt mollit anim id est laborum.
-        </div>
-
+      <div class="services-header">Our Brow and Waxing Services</div>
+      <div class="services-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </div>
+      <div class="services-content">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </div>
     </div>
 
     <!-- FOOTER -->

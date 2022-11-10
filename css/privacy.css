@@ -1,0 +1,165 @@
+:root {
+    --page-width: 1280px;
+    --page-width-margin: 2rem;
+    --duration-long: .5s;
+    --font-body-scale: 1.0;
+    --font-heading-scale: 1.0;
+}
+
+  .page-width {
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .page-width-desktop {
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .page-width {
+      padding: 0 5rem;
+    }
+  
+    .page-width--narrow {
+      padding: 0 9rem;
+    }
+  
+    .page-width-desktop {
+      padding: 0;
+    }
+  
+    .page-width-tablet {
+      padding: 0 5rem;
+    }
+  }
+  
+  @media screen and (min-width: 990px) {
+    .page-width--narrow {
+      max-width: 72.6rem;
+      padding: 0;
+      
+    }
+  
+    .page-width-desktop {
+      max-width: var(--page-width);
+      padding: 0 5rem;
+    }
+  }
+  .element-margin {
+    margin-top: 5rem;
+  }
+  
+  .spaced-section {
+    margin-top: 4rem;
+  }
+  
+  .spaced-section:last-child {
+    margin-bottom: 5rem;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .element-margin {
+      margin-top: calc(5rem + var(--page-width-margin));
+    }
+  }
+
+  
+  .rte:after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+  
+  .rte > p:first-child {
+    margin-top: 0;
+  }
+  
+  .rte > p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .rte table {
+    table-layout: fixed;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .rte table td {
+      padding-left: 1.2rem;
+      padding-right: 1.2rem;
+    }
+  }
+  
+  .rte img {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .rte ul {
+    padding-left: 2rem;
+  }
+  
+  .rte-width {
+    max-width: 82rem;
+    margin: 0 auto 2rem;
+  }
+
+
+  .spaced-section {
+    margin-top: calc(5rem + var(--page-width-margin));
+  }
+
+  .spaced-section:last-child { 
+    margin-bottom: calc(5rem + var(--page-width-margin));
+  
+}
+
+.spaced-section--full-width + .spaced-section--full-width {
+  margin-top: 0;
+}
+
+.spaced-section--full-width:first-child {
+  margin-top: 0;
+}
+
+.spaced-section--full-width:last-child {
+  margin-bottom: 0;
+}
+
+
+    /* privacy title*/
+    .page-title {
+        margin-top: 0;
+      }
+      
+      .main-page-title {
+        margin-bottom: 3rem;
+      }
+      
+      @media screen and (min-width: 750px) {
+        .main-page-title {
+          margin-bottom: 4rem;
+        }
+      }
+      
+      .page-placeholder-wrapper {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .page-placeholder {
+        width: 52.5rem;
+        height: 52.5rem;
+      }
+
+      @media only screen and (min-width: 750px) {
+.h0 {
+    font-size: 40px;
+}
+      }
+
+.h0 {
+    font-size: 40px;
+}
+      
