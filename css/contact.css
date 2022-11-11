@@ -52,6 +52,7 @@
   
   .spaced-section {
     margin-top: 5rem;
+
   }
   
   .spaced-section:last-child {
@@ -137,6 +138,18 @@
     text-align: center;
 }
 
+.contactform-container {
+  height: 850px;
+  background-color: #DDCAC0;
+}
+
+@media screen and (min-width: 750px) {
+  .contactform-container {
+    height: 900px;
+    background-color: #DDCAC0;
+  }
+}
+
 form {
   display: block;
   margin-top: 0em;
@@ -169,8 +182,40 @@ form {
   }
 }
 
+.tnc__check {
+  padding: 10px 0 -10px;
+}
+
+.tnc__check input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+.tnc__check label {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.tnc__check label a {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 750px) {
+  .tnc__check input[type=checkbox] {
+    transform: scale(1);
+  }
+  
+  .tnc__check label {
+    padding-left: 10px;
+    font-size: 13px;
+  }
+  
+  .tnc__check label a {
+    text-decoration: underline;
+  }
+}
+
 .contact__button {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -231,6 +276,23 @@ form {
   color: rgba(var(--color-foreground), 0.75);
   letter-spacing: 0.1rem;
   line-height: 1.5;
+}
+
+@media screen and (min-width: 750px) {
+  .field__label,
+.customer .field label {
+  font-size: 1.3rem;
+  left: 1.5rem;
+  top: 1rem;
+  margin-bottom: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: top var(--duration-short) ease,
+    font-size var(--duration-short) ease;
+  color: rgba(var(--color-foreground), 0.75);
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+}
 }
 
 .field__input:focus ~ .field__label,
