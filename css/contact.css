@@ -122,6 +122,10 @@
   /* The width is the width of the web page */
 }
 
+
+
+
+
 /* Contact us form */
 
 @media screen and (min-width: 990px){
@@ -140,13 +144,13 @@
 
 .contactform-container {
   height: 850px;
-  background-color: #DDCAC0;
+  background-color: #c5958d;
 }
 
 @media screen and (min-width: 750px) {
   .contactform-container {
     height: 900px;
-    background-color: #DDCAC0;
+    background-color: #c5958d;
   }
 }
 

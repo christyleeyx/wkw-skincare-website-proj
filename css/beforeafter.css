@@ -184,6 +184,10 @@
   .rte ul {
     padding-left: 2rem;
   }
+
+  .rich-text__text p {
+    font-family: var(--font-body);
+  }
   
 
 
