@@ -248,6 +248,47 @@
       </div>
     </div>
 
+        <!-- contact us form -->
+
+        <section class="spaced-section spaced-section--full-width contactform-container">
+          <div class="contact page-width page-width--narrow spaced-section" style="padding-top: 30px;">
+              <h2 class="title">Drop your enquiry and we'll get back to you within a day!</h2>
+                  <form id="ContactForm" accept-charset="UTF-8" class="contact-form">
+                      <input type="hidden" name="form_type" value="contact">
+                      <input type="hidden" name="utf8" value="✓">
+                      <div class="contact__fields">
+                          <div class="field">
+                              <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[Name]" value="" placeholder="Name" required>
+                              <label class="field__label" for="ContactForm-name">Name <span aria-hidden="true">*</span></label>
+                          </div>
+                          <div class="field field--with-error">
+                              <input autocomplete="email" type="email" id="ContactForm-email" class="field__input" name="contact[email]" spellcheck="false" autocapitalize="off" value="" aria-required="true" placeholder="Email">
+                              <label class="field__label">Email <span aria-hidden="true">*</span></label>
+                          </div>
+                      </div>
+                      <div class="field">
+                          <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[Phone number]" pattern="[0-9\-]*" value="" placeholder="Phone number">
+                          <label class="field__label">Contact number <span aria-hidden="true">*</span></label>
+                      </div>
+                      <div class="field">
+                          <textarea rows="10" id="ContactForm-body" class="text-area field__input" name="contact[Comment]" placeholder="Enquiry" required aria-required="true"></textarea>
+                          <label class="form__label field__label">Enquiry</label>
+                      </div>
+                      <div class="tnc__check">
+                        <input type="checkbox" name="tnc">
+                          <label>I agree to the <a href="tnc.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a></label>
+                      </div>
+                      <div class="contact__button">
+                          <button type="submit" class="button">
+                              Submit
+                          </button>
+                      </div>
+                  </form>
+          </div>         
+      </section>
+  
+      <!-- contact form end-->
+
     <div class="footer">
       <img src="assets/logo2.png" alt="Verra logo" width="100" />
       <div>
