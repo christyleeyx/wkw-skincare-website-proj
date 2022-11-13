@@ -129,6 +129,7 @@ font-size: 40px;
 
   .swiperButtons {
     padding: 20px;
+    color: var(--color-1);
   }
   
   .swiper-navBtn{
@@ -142,12 +143,15 @@ font-size: 40px;
   .swiper-navBtn::before,
   .swiper-navBtn::after{
     font-size: 35px;
+    color: var(--color-1);
   }
   .swiper-button-next{
     right: 0;
+    color: var(--color-1);
   }
   .swiper-button-prev{
     left: 0;
+    color: var(--color-1);
   }
   .swiper-pagination-bullet{
     color: var(--color-1);
@@ -155,6 +159,7 @@ font-size: 40px;
   }
   .swiper-pagination-bullet-active{
     background-color: var(--color-1);
+    color: var(--color-1);
   }
   
   @media screen and (max-width: 768px) {
@@ -163,6 +168,7 @@ font-size: 40px;
     }
     .swiper-navBtn{
       display: none;
+      color: var(--color-1);
     }
   }
   
