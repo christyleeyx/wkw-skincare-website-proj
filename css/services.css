@@ -234,6 +234,12 @@
     background-repeat: no-repeat;
 }
 
+#browandwaxing-banner {
+    background-image: url(../assets/services/browandwaxing-banner.png);
+    background-position-x: 90%;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+}
 
 
 #ipl-banner {
@@ -351,6 +357,8 @@
     font-weight: bold;
 }
 
+
+
 .types-of-service-btn {
     padding: 10px 20px;
     font-family: var(--font-heading);
@@ -369,6 +377,61 @@
     text-align: center;
 }
 
+
+/* Pricing table for brow and waxing page */
+.pricing-table {
+    text-align: left;
+    padding:2px;
+    border-spacing:10px;
+}
+
+.bw-title {
+    font-family: var(--font-heading);
+    font-size: 20px;
+    /* background-color: red; */
+}
+
+.bw-duration {
+    font-family: var(--font-heading);
+    font-size: 16px;
+}
+
+
+.col-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+    @media screen and (max-width: 800px) {
+        .col-container {
+            flex-direction: column;
+        }
+    }
+
+
+.pricing-col-1 {
+    width: 50%;
+    
+    margin-right: 50px;
+}
+@media screen and (max-width: 800px) {
+    .pricing-col-1 {
+        width: 100%;
+    }
+}
+
+.pricing-col-2 {
+    width: 50%;
+    
+    margin-left: 50px;
+}
+@media screen and (max-width: 800px) {
+    .pricing-col-2 {
+        width: 100%;
+    }
+}
 
 
 :root {
