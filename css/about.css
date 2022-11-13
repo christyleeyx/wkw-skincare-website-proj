@@ -109,13 +109,14 @@
     margin: auto;
     text-align: center;
     padding: 32px;
-    margin-top: 48px;
-    margin-bottom: 48px;
+    margin-top: 112px;
+    margin-bottom: 112px;
   }
   
   .content2Title {
     font-family: var(--font-header);
     font-size: 40px;
+    font-weight: 600px;
   }
 
 .content3 {

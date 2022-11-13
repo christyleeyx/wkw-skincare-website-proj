@@ -289,4 +289,7 @@
         font-size: 1.4rem;
     }
 
-    
+  .spaced-section {
+    margin-top: 112px;
+    margin-bottom: 112px;
+  }

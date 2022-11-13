@@ -48,6 +48,7 @@
     font-family: var(--font-header);
     padding: 50px;
     margin: 40px;
+    margin-top: 0px;
     max-width: 380px;
     color: var(--color-font);
 }
@@ -352,4 +353,30 @@
       transition: box-shadow var(--duration-short) ease;
       -webkit-appearance: none;
       appearance: none;
+    }
+
+    .onlineConsultation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content2 {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        margin: auto;
+        text-align: center;
+        padding: 32px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+        }
+          
+    .content2Title {
+        font-family: var(--font-header);
+        font-size: 40px;
+        text-align: center;
+        }
+    
+    .onlineConsultationImage {
+        padding: 50px;
     }
