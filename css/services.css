@@ -255,6 +255,27 @@
     background-repeat: no-repeat;
 }
 
+#ledfacial-banner {
+  background-image: url(../assets/services/ledfacial-banner.jpg);
+  background-position-x: 100%;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#massagefacial-banner {
+  background-image: url(../assets/services/massagefacial-banner.webp);
+  background-position-x: 90%;
+  background-position-y: 40%;
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+
 #ipl-banner {
     background-image: url(../assets/services/ipl-banner.jpeg);
     background-position-x: 20%;
